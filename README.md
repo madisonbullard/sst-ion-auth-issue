@@ -1,6 +1,8 @@
 ### The issue
 In this repo, I'm creating an auth flow that should (I think) work for Google OIDC. The *deployed* SST app works as expected, but the `sst dev` behavior differs in unexpected ways.
 
+Using SST CLI v0.0.419.
+
 ### Steps to recreate the issue
 1. Make sure your `aws` CLI is properly configured to allow creating AWS ([Instructions here](https://sst.dev/chapters/configure-the-aws-cli.html))
 2. Create a public/private keypair to put into SSM. We need to use SSM rather than SST Secret because SST Secret doesn't support multiline values.

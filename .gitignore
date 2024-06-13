@@ -1,0 +1,8 @@
+node_modules
+
+# sst
+.sst
+
+# auth tokens created via README instructions
+private.pem
+public.pem

@@ -1,3 +1,5 @@
+Issue opened [here](https://github.com/sst/ion/issues/555)
+
 ### The issue
 In this repo, I'm creating an auth flow that should (I think) work for Google OIDC. The *deployed* SST app works as expected, but the `sst dev` behavior differs in unexpected ways.
 
